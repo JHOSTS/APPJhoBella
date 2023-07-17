@@ -1,0 +1,51 @@
+﻿@{
+    Layout = null; 
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/Registro.css" asp-append-version="true" />
+    <script src="https://kit.fontawesome.com/c411e7e344.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Registro</h2>
+        <form method="post" asp-action="CadastraUsuario">
+            <div class="form-group">
+            <label for="Usuario">Nome:</label>
+            <input type="text" id="Usuario" name="UserName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+            </div>
+
+            <div class="form-group">
+                <label for="ConfirmaSenha">Confirme a senha:</label>
+                <input type="password" id="ConfirmaSenha" name="ConfirmaSenha" required>
+            </div>
+            <div class="form-group">
+                <label for="DataNascimento">Data de Nascimento:</label>
+                <input type="date" id="DataNascimento" name="DataNascimento" required>
+            </div>
+            <div class="form-group">
+            <button type="submit" >Registrar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
