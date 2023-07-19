@@ -16,7 +16,7 @@ namespace AppJhoBella.Controllers
 
 
             await _usuarioService.Login(dto);
-            return Redirect("https://localhost:7240/Home/Index");
+            return Redirect("/Home/Index");
         }
 
         public IActionResult ViewLogin()

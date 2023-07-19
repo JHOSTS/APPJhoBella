@@ -17,7 +17,7 @@ namespace AppJhoBella.Controllers
             if(!ModelState.IsValid) return Registro();
 
             await _usuarioService.Cadastro(dto);
-            return Redirect("https://localhost:7240/login");
+            return Redirect("/Login");
         }
         public IActionResult Registro()
         {
