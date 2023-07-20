@@ -1,0 +1,16 @@
+﻿body {
+}
+
+button{
+    border: 1px solid purple;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-top: 15px
+    
+}
+
+button:hover{
+    border-radius: 155px;
+    cursor: pointer;
+    transform:scale(1.1)
+}

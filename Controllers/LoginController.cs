@@ -16,7 +16,7 @@ namespace AppJhoBella.Controllers
 
 
             await _usuarioService.Login(dto);
-            return Redirect("/Home/Index");
+            return Redirect("/Home/Lembretes");
         }
 
         public IActionResult ViewLogin()

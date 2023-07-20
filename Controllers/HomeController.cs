@@ -13,12 +13,12 @@ namespace AppJhoBella.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Lembretes()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Filmes()
         {
             return View();
         }
