@@ -24,6 +24,11 @@ namespace AppJhoBella.Controllers
             return View();
         }
 
+        public void RedirectToLogin()
+        {
+            Redirect("/Login");
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

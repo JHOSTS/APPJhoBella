@@ -11,10 +11,17 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/Registro.css" asp-append-version="true" />
     <script src="https://kit.fontawesome.com/c411e7e344.js" crossorigin="anonymous"></script>
+    <script>
+        function redirectToLogin() 
+                { window.location.href = '/Login'; }
+    </script>
 </head>
 
 <body>
     <div class="container">
+        <button class="btnVoltar" id="btnVoltar" onclick="redirectToLogin()"> 
+            <i class="fa-solid fa-arrow-rotate-left"></i>
+        </button>
         <h2>Registro</h2>
         <form method="post" asp-action="CadastraUsuario">
             <div class="form-group">

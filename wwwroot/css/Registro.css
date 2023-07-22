@@ -40,8 +40,9 @@
             cursor: pointer;
         }
 
-            .form-group input[type="submit"]:hover, button:hover {
-                transform: scale(1.07)
+            .form-group input[type="submit"]:hover, .form-group button:hover {
+                transform: scale(1.07);
+                color: black
             }
 
 @media (max-width: 480px) {
@@ -59,3 +60,14 @@
     background-color: white;
     padding: 20px;
 }
+
+.btnVoltar {
+    padding-left: 90%;
+    margin-top: -5%;
+}
+
+    .btnVoltar :hover {
+        transform: scale(1.3);
+        color: black
+        
+    }

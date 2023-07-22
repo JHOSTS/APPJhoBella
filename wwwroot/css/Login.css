@@ -41,7 +41,8 @@
         }
 
             .form-group input[type="submit"]:hover, button:hover{
-                transform: scale(1.07)
+                transform: scale(1.07);
+                color: black
             }
 
 @media (max-width: 480px) {

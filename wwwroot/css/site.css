@@ -16,3 +16,19 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+button{
+    color:black;
+    border: none;
+}
+
+button:hover{
+    color: black;
+    transform: scale(1.01);
+}
+
+.nav-link:hover {
+    border: none;
+    transform: scale(1.25);
+    color: black
+}
